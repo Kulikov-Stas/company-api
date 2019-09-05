@@ -9,7 +9,7 @@
 - composer dump-autoload
 - php artisan db:seed
 - добавляем домен к локальному серверу ( company папка домена ) => { /company/public }
-- npm run watch 
+- php artisan key:generate 
 ## Пошаговая инструкция
 - laravel new company-api
 ## Database
