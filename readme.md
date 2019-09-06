@@ -157,6 +157,14 @@
 - php artisan db:seed
 - в корне положил дамп /company_api
 ## RestFull API
+- добавляем в модели
+```bash
+    /**
+     * @var array
+     */
+    protected $hidden = ['pivot'];
+```
+чтобы не показывались промежуточные таблицы, в json они не нужны
 - php artisan make:resource UserResource
 - php artisan make:resource UsersResource --collection
 - php artisan make:resource CompanyResource

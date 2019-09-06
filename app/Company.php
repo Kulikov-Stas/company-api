@@ -26,6 +26,11 @@ class Company extends Model
     ];
 
     /**
+     * @var array
+     */
+    protected $hidden = ['pivot'];
+
+    /**
      * soft delete
      *
      * @var array
