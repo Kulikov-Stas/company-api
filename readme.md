@@ -8,7 +8,7 @@
 - php artisan migrate
 - composer dump-autoload
 - php artisan db:seed
-- добавляем домен к локальному серверу ( company папка домена ) => { /company/public }
+- добавляем домен к локальному серверу ( company-api папка домена ) => { /company-api/public }
 - php artisan key:generate 
 ## Пошаговая инструкция
 - laravel new company-api
